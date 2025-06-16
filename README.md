@@ -16,15 +16,15 @@ if Auto Installation Fails for some reason (couldnt test cuz my pc alrdy has all
 you will also need python for windows just download it for ubuntu just do sudo apt install python or sudo apt install python3
 just manually install them by doing this:
 
-```pip install SpeechRecognition pyttsx3 pillow
+```pip install SpeechRecognition pyttsx3 pillow```
 
 on ubuntu linux use this guide:
 
 1st set up your venv by doing: 
 
-python3 -m venv .venv
+```python3 -m venv .venv```
 
-source .venv/bin/activate```
+```source .venv/bin/activate```
 
 then download the pip files in the correct folder for example cd into the chralassistant folder.
 
@@ -33,14 +33,14 @@ then simply:
 
 then you need to pip install pyaudio. im doing it by itself cause i for example had an error while installing it saying failed to build wheel. what worked for me was doing the following:
 
-```sudo apt-get install portaudio19-dev 
+```sudo apt-get install portaudio19-dev``` 
 
-pip install pyaudio```
+```pip install pyaudio```
 
 after that install tkinter:
 
- ```sudo apt update
- sudo apt install python3-tk```
+ ```sudo apt update```
+ ```sudo apt install python3-tk```
 
 then cd to the source folder inside of the chralassistant folder to be able to access the python code, do:
 
